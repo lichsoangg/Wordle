@@ -1,5 +1,5 @@
 import React from "react";
-import "../heading.css";
+import "./heading.css";
 interface Iprops {
   type: string;
   text: string;
