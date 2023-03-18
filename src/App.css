@@ -7,10 +7,12 @@
 }
 .App {
   padding-top: 2em;
-  height: 100vh;
+  height: 1000px;
   display: flex;
   overflow: hidden;
   flex-direction: column;
+}
+.container {
 }
 
 html,
@@ -34,4 +36,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.button {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 20px;
 }

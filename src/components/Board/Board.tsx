@@ -12,7 +12,7 @@ const Board: React.FC<iProps> = (props) => {
         {board.map((square, idx) => {
           return (
             <>
-              <Square val={square} squareIdx={idx} />
+              <Square key={idx} val={square} squareIdx={idx} />
             </>
           );
         })}
